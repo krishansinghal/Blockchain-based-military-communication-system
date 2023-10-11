@@ -1,0 +1,29 @@
+body{
+    font-family: 'flamenco', cursive;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .header h2{
+     text-align: center;
+     font-size: 40px;
+     font-weight: 600;
+     color:rgb(92, 121, 12);
+  }
+  
+ .image img{
+    width: 70%;
+    height: 50%;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+ }
+
+ .cont p{
+    align-self: center;
+    color: rgb(155, 10, 89);
+    font-size: 30px;
+    font-weight: 400;
+ }
+ 

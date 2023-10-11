@@ -1,0 +1,218 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+body{
+
+	font-size: 20px;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../images/main-background.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 655px;
+	font-family: 'Flamenco', cursive;
+}
+
+
+.main-content{
+
+	width: 1180px;
+	position: absolute;
+	top: 20%;
+	left: 13%;
+}
+    
+h1{
+
+	color: #fff;
+	font-size: 240%;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	margin-bottom:15%;
+	text-transform: uppercase;
+	font-weight: lighter;
+    text-align: left;
+}
+
+.btn{
+	 display: block;
+     font-size: large;
+     width: 400px;
+	 padding: 10px 30px;
+     margin: 1% 25%;
+     text-align: center;
+	 font-weight: lighter;
+	 text-decoration: none;
+	 text-transform: uppercase;
+	 border-radius: 200px;
+	 transition: background-color 0.2s, border 0.2s, color 0.2;
+     font-family: 'Flamenco', cursive;
+
+}
+
+.btn-more{
+    background-color: transparent;
+	color: #fff;
+	border:2px solid #fff;
+
+}
+.btn-more:hover{
+	background-color: #bf55ec;
+}
+
+.colorc{
+	animation: colorchange 1s infinite;
+}
+@keyframes colorchange{
+	0%{color: red;}
+	25%{color: #bf55ec;}
+	50%{color: white;}
+	100%{color: #bf55ec;}
+}
+
+
+@media only screen and (max-width: 1180px){
+	.main-content{
+		width: 100%;
+		padding: 0 2%;
+	}
+}
+
+/* For Modal */
+
+/*assign full width inputs*/
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/*set a style for the buttons*/
+.modal button {
+    background-color: #02260e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    display: inline-block;
+}
+
+/* set a hover effect for the button*/
+.modal button:hover {
+    opacity: 0.8;
+} 
+
+
+/*centre the display image inside the container*/
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+/*set image properties*/
+img.avatar {
+    width: 20%;
+    border-radius: 50%;
+}
+
+/*set padding to the container*/
+.container {
+    padding: 16px;
+}
+
+/*set the forgot password text*/
+/* .psw {
+    float: right;
+    padding: 1% 0%;
+}
+
+.signup {
+    float: left;
+    padding: 1% 0%;
+} */
+
+.links{
+    display: flex;
+    margin: 2% 0%;
+    justify-content: space-around;
+}
+
+
+/*set the Modal background*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+/*style the model content box*/
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/*style the close button*/
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(209, 8, 8);
+    cursor: pointer;
+}
+
+/* add zoom animation*/
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+@media screen and (max-width: 200px) and (max-height: 600px) {
+    .cancelbtn {
+        width: 100%;
+    }
+}

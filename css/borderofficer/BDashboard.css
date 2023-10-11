@@ -1,0 +1,103 @@
+*{
+    font-family: 'Flamenco', cursive;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+/* Top header */
+.header{
+    position: fixed;
+	top: 0;
+	left: 0;
+    bottom: 0;
+	width: 100%;
+	height: 10%;
+	background-color: #111;
+	box-shadow: 1px 0 1px rgba(0,0,0,0.125);
+	display: flex;
+
+}
+
+.logo{
+    width: auto;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 1% 2%;
+	color: darkolivegreen;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+    margin-left: 25%;
+}
+
+/* Main content */
+
+iframe{
+    border:none; 
+    scroll-behavior: smooth; 
+    scroll-snap-type: none; 
+    height:600px; 
+    width: 100%; 
+    margin-top: 4.5%; 
+    overflow: scroll;
+    /* padding: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%; */
+}
+
+.welcome{
+    text-align: center;
+}
+
+.welcome h4{
+    color: khaki;
+    font-size: 25px;
+}
+
+
+/* Hamburger Menu */
+.menu{
+    padding: 1% 3%;
+}
+
+.ham{
+    width: 35px;
+    height: 4px;
+    border-radius: 100px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+.menu:hover .sidenav{
+    width: 20%;
+}
+
+.sidenav {
+    height: 91%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 9%; /* Stay at the top */
+    left: 0;
+    border-radius: 2% 2%;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  

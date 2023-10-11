@@ -1,0 +1,68 @@
+body{
+   font-family: 'flamenco', cursive;
+   text-align: center;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../images/main-background.jpg');
+}
+
+.header{
+    text-align: center;
+    font-size: 30px;
+    color:darkkhaki;
+ }
+ 
+
+.card{
+   align-self: center;
+   background-color: white;
+   border-radius: 50px;
+   border: 2px;
+   border-color: lavenderblush;
+   width: 80%;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.details{
+    margin: 5%;
+}
+
+.details label{
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 1%;
+    color:rgb(17, 66, 114);
+}
+
+.details input{
+    width: 100%;
+    margin-top: 0.5%;
+    height: 25px;
+    padding: 0.5%;
+    font-size: 18px;
+    color:rgb(11, 48, 48);
+    font-family: 'flamenco', cursive;
+    font-weight: 550;
+    background-color:lavender;
+    border-color:lavenderblush;
+}
+
+.buttonsign{
+    margin: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttonsign button{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    width: 20%;
+    height: 40px;
+    padding: 1%;
+    border-radius: 5%;
+    border: none;
+    background-color:darkslategray;
+}
